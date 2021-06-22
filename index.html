@@ -38,7 +38,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://main.d2pg7tym3yqfrg.amplifyapp.com", requestOptions)
+            fetch("https://mqkrn5x0sb.execute-api.us-west-1.amazonaws.com/dev", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
